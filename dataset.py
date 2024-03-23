@@ -1,10 +1,12 @@
 import os
+import sys
 from PIL import Image
 from PIL import ImageDraw
 from PIL import ImageFont
 from pathlib import Path
 from logger import logger
 from fontTools.ttLib import TTFont
+import itertools
 
 def supports_latin_alphabet(font_path):
     try:
@@ -49,7 +51,7 @@ def create_document(text, font_path, font_size=16, output_path='dataset'):
     if not os.path.exists(output_path):
         os.makedirs(output_path)
 
-    image = Image.new("RGB", (800, 200), color="white")
+    image = Image.new("RGB", (1300, 400), color="white")
     draw = ImageDraw.Draw(image)
     
     try:
@@ -64,7 +66,7 @@ def create_document(text, font_path, font_size=16, output_path='dataset'):
     image_path = os.path.join(output_path, f"{Path(font_path).stem}_{font_size}.png")
     image.save(image_path)
     
-    logger.info(f"Document {os.path.basename(image_path)} created successfully")
+    logger.debug(f"Document {os.path.basename(image_path)} created successfully")
 
 def main():
     text_sample = """
@@ -76,10 +78,12 @@ def main():
         
         Lord Kelvin
     """
-    fonts = get_fonts('/usr/share/fonts', 'ttf')
+    font_path = sys.argv[0]
     
-    for font_path in fonts:
-        create_document(text_sample, font_path)
+    fonts = get_fonts(font_path, 'ttf')
+    font_sizes = [12, 14, 16, 18, 20, 22]
+    for font_path, font_size in itertools.product(fonts, font_sizes):
+        create_document(text_sample, font_path, font_size)
 
 if __name__ == '__main__':
     main()
