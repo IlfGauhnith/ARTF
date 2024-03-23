@@ -1,4 +1,9 @@
 import os
+from PIL import Image
+from PIL import ImageDraw
+from PIL import ImageFont
+from pathlib import Path
+from logger import logger
     
 def get_fonts(path, extension='ttf'):
     """
@@ -21,6 +26,26 @@ def get_fonts(path, extension='ttf'):
     
     return font_paths
 
+def create_document(text, font_path, font_size=16, output_path='dataset'):
+    if not os.path.exists(output_path):
+        os.makedirs(output_path)
+    
+    image = Image.new("RGB", (800, 200), color="white")
+    draw = ImageDraw.Draw(image)
+    
+    try:
+        
+        font = ImageFont.truetype(font_path, font_size)
+        draw.text((5, 5), text, fill="black", font=font, language="en")
+        
+    except OSError as ose:
+        logger.error(f"exception:{OSError.__name__} - message:{ose} - font:{os.path.basename(font_path)}")
+        
+    image_path = os.path.join(output_path, f"{Path(font_path).stem}_{font_size}.png")
+    image.save(image_path)
+    
+    logger.info(f"Document {os.path.basename(image_path)} created successfully")
+
 def main():
     text_sample = """
         If you cannot measure it, you cannot improve it.
@@ -30,6 +55,8 @@ def main():
     """
     fonts = get_fonts('/usr/share/fonts', 'ttf')
     
+    for font_path in fonts:
+        create_document(text_sample, font_path)
 
 if __name__ == '__main__':
     main()
