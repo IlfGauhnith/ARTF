@@ -35,12 +35,15 @@ def get_fonts(path, extension='ttf'):
     from that ubuntu-based default font path. 
     """
     font_paths = []
-    
+
     for root, dirs, files in os.walk(path):
         for file in files:
             if file.endswith(f".{extension}"):
                 font_paths.append(os.path.join(root, file))
     
+    if not font_paths:
+        logger.debug('No fonts found.')
+        
     return font_paths
 
 def create_document(text, font_path, font_size=16, output_path='dataset'):
@@ -78,7 +81,7 @@ def main():
         
         Lord Kelvin
     """
-    font_path = sys.argv[0]
+    font_path = sys.argv[1]
     
     fonts = get_fonts(font_path, 'ttf')
     font_sizes = [12, 14, 16, 18, 20, 22]
