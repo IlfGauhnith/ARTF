@@ -44,8 +44,7 @@ def experiment(pop:int):
         font_style = get_font_style(font_name)
         
         experiment.append({**{'font_name':font_name, 'median':median, 'std':std}, **font_style})
-        break
-    
+            
     return experiment
     
 def ocr_eval(img_path, ground_truth, pop:int):
