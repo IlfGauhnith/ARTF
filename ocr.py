@@ -6,6 +6,7 @@ import pandas as pd
 import os
 from util import exclude_outliers
 from pathlib import Path
+from tqdm import tqdm
 
 def get_font_style(font_name):
     """
@@ -35,16 +36,24 @@ def experiment(pop:int):
     with open(os.path.join('sample.txt'), 'r') as file:
         ground_truth = file.read()
 
+    files = os.listdir(dataset_path)
+    progress_bar = tqdm(total=len(files), desc='Processing files', unit='file')
+
     experiment = []
-    for filename in os.listdir(dataset_path):
+    for filename in files:
         img_path = os.path.join(dataset_path, filename)
         median, std = ocr_eval(img_path, ground_truth, pop)
         
         font_name = Path(img_path).stem
+        font_size = font_name.split("_")[-1]
+        
+        font_name = ''.join(font_name.split("_")[:-1])
         font_style = get_font_style(font_name)
         
-        experiment.append({**{'font_name':font_name, 'median':median, 'std':std}, **font_style})
-            
+        experiment.append({**{'font_name':font_name, 'median':median, 'std':std, 'font_size': font_size}, **font_style})
+        progress_bar.update(1)
+
+    progress_bar.close()
     return experiment
     
 def ocr_eval(img_path, ground_truth, pop:int):
