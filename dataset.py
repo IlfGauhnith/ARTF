@@ -7,7 +7,7 @@ from pathlib import Path
 from logger import logger
 from fontTools.ttLib import TTFont
 import itertools
-
+    
 def supports_latin_alphabet(font_path):
     try:
         font = TTFont(font_path)
@@ -72,15 +72,10 @@ def create_document(text, font_path, font_size=16, output_path='dataset'):
     logger.debug(f"Document {os.path.basename(image_path)} created successfully")
 
 def main():
-    text_sample = """
-        "To measure is to know"
-        "If you cannot measure it, you cannot improve it."
-        "When you can measure what you are speaking about, and express it in numbers,
-        you know something about it; but when you cannot measure it, when you cannot
-        express it in numbers, your knowledge is of a meagre and unsatisfactory kind."
-        
-        Lord Kelvin
-    """
+    
+    with open(os.path.join('sample.txt'), 'r') as file:
+        text_sample = file.read()
+
     font_path = sys.argv[1]
     
     fonts = get_fonts(font_path, 'ttf')
