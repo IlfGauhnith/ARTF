@@ -1,4 +1,7 @@
 fonttools==4.50.0
+Levenshtein==0.25.0
 packaging==24.0
 pillow==10.2.0
 pytesseract==0.3.10
+python-Levenshtein==0.25.0
+rapidfuzz==3.7.0
