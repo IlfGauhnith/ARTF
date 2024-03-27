@@ -70,5 +70,5 @@ def ocr_eval(img_path, ground_truth, pop:int):
     return (np.median(experiment), np.std(experiment))
 
 if __name__ == '__main__':
-    experiment = experiment(1)
+    experiment = experiment(50)
     create_evaluation_csv(experiment)
