@@ -1,13 +1,20 @@
-import os
-import sys
-from PIL import Image
-from PIL import ImageDraw
-from PIL import ImageFont
 from pathlib import Path
 from logger import logger
-from fontTools.ttLib import TTFont
 import itertools
-    
+from fontTools.ttLib import TTFont
+from tqdm import tqdm
+
+from reportlab.lib.pagesizes import A4
+from reportlab.pdfbase import pdfmetrics
+from reportlab.platypus import SimpleDocTemplate, Paragraph
+from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.lib.units import inch
+import reportlab.pdfbase.ttfonts
+import reportlab.rl_config
+
+import os
+import sys
+
 def supports_latin_alphabet(font_path):
     try:
         font = TTFont(font_path)
@@ -36,7 +43,7 @@ def get_fonts(path, extension='ttf'):
     """
     font_paths = []
 
-    for root, dirs, files in os.walk(path):
+    for root, _, files in os.walk(path):
         for file in files:
             if file.endswith(f".{extension}"):
                 font_paths.append(os.path.join(root, file))
@@ -54,22 +61,31 @@ def create_document(text, font_path, font_size=16, output_path='dataset'):
     if not os.path.exists(output_path):
         os.makedirs(output_path)
 
-    image = Image.new("RGB", (1300, 400), color="white")
-    draw = ImageDraw.Draw(image)
-    
+    styles = getSampleStyleSheet()
+    styleN = styles['Normal']
+
+    styleN.fontName = Path(font_path).stem
+    styleN.fontSize = font_size
+    styleN.leading = font_size
+
+    pdf_path = os.path.join(output_path, f"{Path(font_path).stem}_{font_size}.pdf")
+
     try:
+        doc = SimpleDocTemplate(
+            pdf_path,
+            pagesize=A4,
+            bottomMargin=.4 * inch,
+            topMargin=.6 * inch,
+            rightMargin=.8 * inch,
+            leftMargin=.8 * inch)
+        P = Paragraph(text, styleN)
         
-        font = ImageFont.truetype(font_path, font_size)
-        draw.text((5, 5), text, fill="black", font=font, language="en")
-        
-    except OSError as ose:
-        logger.error(f"Error writing document with font '{os.path.basename(font_path)}': {ose}")
-        print(f"Error writing document with font '{os.path.basename(font_path)}': {ose}")
-        
-    image_path = os.path.join(output_path, f"{Path(font_path).stem}_{font_size}.png")
-    image.save(image_path)
-    
-    logger.debug(f"Document {os.path.basename(image_path)} created successfully")
+        doc.build([P])
+        logger.debug(f"Document {os.path.basename(pdf_path)} created successfully")
+
+    except Exception as e:
+        logger.error(f"Error writing document with font '{os.path.basename(font_path)}': {e}")
+        print(f"Error writing document with font '{os.path.basename(font_path)}': {e}")
 
 def main():
     
@@ -77,11 +93,23 @@ def main():
         text_sample = file.read()
 
     font_path = sys.argv[1]
-    
+    reportlab.rl_config.TTFSearchpath = font_path
+
     fonts = get_fonts(font_path, 'ttf')
-    font_sizes = [12, 14, 16, 18, 20, 22]
-    for font_path, font_size in itertools.product(fonts, font_sizes):
-        create_document(text_sample, font_path, font_size)
+    font_sizes = [12, 14, 16, 18, 20, 22, 24, 26]
+    font_corpus = list(itertools.product(fonts, font_sizes))
+
+    progress_bar = tqdm(total=len(font_corpus), desc='Creating documents', unit='document')
+    for font_path, font_size in font_corpus:
+
+        ttf_font = reportlab.pdfbase.ttfonts.TTFont(Path(font_path).stem, os.path.basename(font_path))
+        pdfmetrics.registerFont(ttf_font) # registering font on reportlab
+
+        create_document(text=text_sample, 
+                        font_path=font_path, 
+                        font_size=font_size, 
+                        output_path=os.path.join('dataset', 'pdf'))
+        progress_bar.update(1)
 
 if __name__ == '__main__':
     main()
