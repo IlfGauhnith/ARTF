@@ -31,10 +31,10 @@ def create_evaluation_csv(experiment):
     frame = pd.DataFrame(experiment)
     frame.to_csv('experiment.csv', index=False)
 
-def experiment(pop:int):
-    dataset_path = os.path.join('dataset')
+def experiment():
+    dataset_path = os.path.join('dataset', 'image')
     with open(os.path.join('sample.txt'), 'r') as file:
-        ground_truth = file.read()
+        ground_truth = file.read()  
 
     files = os.listdir(dataset_path)
     progress_bar = tqdm(total=len(files), desc='Processing files', unit='file')
@@ -42,7 +42,7 @@ def experiment(pop:int):
     experiment = []
     for filename in files:
         img_path = os.path.join(dataset_path, filename)
-        median, std = ocr_eval(img_path, ground_truth, pop)
+        score = ocr_eval(img_path, ground_truth)
         
         font_name = Path(img_path).stem
         font_size = font_name.split("_")[-1]
@@ -50,25 +50,21 @@ def experiment(pop:int):
         font_name = ''.join(font_name.split("_")[:-1])
         font_style = get_font_style(font_name)
         
-        experiment.append({**{'font_name':font_name, 'median':median, 'std':std, 'font_size': font_size}, **font_style})
+        experiment.append({**{'font_name':font_name, 'accuracy':f"{score:.2f}%", 'font_size': font_size}, **font_style})
         progress_bar.update(1)
 
     progress_bar.close()
     return experiment
     
-def ocr_eval(img_path, ground_truth, pop:int):
+def ocr_eval(img_path, ground_truth):
     img = Image.open(img_path)
     
-    experiment = []
-    for _ in range(pop):
-        extracted_text = pytesseract.image_to_string(img)
-        dist = Levenshtein.distance(extracted_text, ground_truth)
-        experiment.append(dist)
-        
-    exclude_outliers(experiment)
-    
-    return (np.median(experiment), np.std(experiment))
+    extracted_text = pytesseract.image_to_string(img)
+    dist = Levenshtein.distance(extracted_text, ground_truth)
+
+    score = ((len(ground_truth) - dist) / len(ground_truth)) * 100
+    return score
 
 if __name__ == '__main__':
-    experiment = experiment(50)
+    experiment = experiment()
     create_evaluation_csv(experiment)

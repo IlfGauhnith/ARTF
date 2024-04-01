@@ -12,6 +12,9 @@ from reportlab.lib.units import inch
 import reportlab.pdfbase.ttfonts
 import reportlab.rl_config
 
+from wand.image import Image as WandImage
+from wand.color import Color
+
 import os
 import sys
 
@@ -29,31 +32,46 @@ def supports_latin_alphabet(font_path):
         print(f"Error analyzing font '{font_path}': {e}")
         return False
     
-def get_fonts(path, extension='ttf'):
+def get_files(path, extension='ttf'):
     """
     This is an auxiliar method.
-    It returns all <extension> type fonts paths from <path>, including subfolders.
+    It returns all <extension> type files paths from <path>, including subfolders.
     
-    :param path: The directory path to search for fonts.
-    :param extension: The file extension of the fonts to search for.
-    :return: A list of file paths to fonts.
+    :param path: The directory path to search for files.
+    :param extension: The file extension of the files to search for.
+    :return: A list of file paths.
     
-    For example: get_fonts('/usr/share/fonts', 'ttf') get all truetype fonts
+    For example: get_files('/usr/share/fonts', 'ttf') get all truetype fonts
     from that ubuntu-based default font path. 
     """
-    font_paths = []
+    file_paths = []
 
     for root, _, files in os.walk(path):
         for file in files:
             if file.endswith(f".{extension}"):
-                font_paths.append(os.path.join(root, file))
+                file_paths.append(os.path.join(root, file))
     
-    if not font_paths:
-        logger.debug('No fonts found.')
+    if not file_paths:
+        logger.debug(f"No {extension} files found in {path}.")
         
-    return font_paths
+    return file_paths
+
+def register_font_reportlab(font_path):
+    
+    try:
+        ttf_font = reportlab.pdfbase.ttfonts.TTFont(Path(font_path).stem, os.path.basename(font_path))
+        pdfmetrics.registerFont(ttf_font) # registering font on reportlab
+    except Exception as e:
+        logger.error(f"Error registering font {Path(font_path).stem} on ReportLab: {e}")
+
 
 def create_document(text, font_path, font_size=16, output_path='dataset'):
+    pdf_path = os.path.join(output_path, f"{Path(font_path).stem}_{font_size}.pdf")
+
+    if os.path.exists(pdf_path):
+        logger.info(f"{Path(pdf_path).stem} already exists.")
+        return
+    
     if not supports_latin_alphabet(font_path):
         logger.info(f"{os.path.basename(font_path)} does not support latin alphabet.")
         return
@@ -67,8 +85,6 @@ def create_document(text, font_path, font_size=16, output_path='dataset'):
     styleN.fontName = Path(font_path).stem
     styleN.fontSize = font_size
     styleN.leading = font_size
-
-    pdf_path = os.path.join(output_path, f"{Path(font_path).stem}_{font_size}.pdf")
 
     try:
         doc = SimpleDocTemplate(
@@ -87,6 +103,24 @@ def create_document(text, font_path, font_size=16, output_path='dataset'):
         logger.error(f"Error writing document with font '{os.path.basename(font_path)}': {e}")
         print(f"Error writing document with font '{os.path.basename(font_path)}': {e}")
 
+def create_image(doc_path, output_path):
+    # Check if the output directory exists, create it if not
+    if not os.path.exists(output_path):
+        os.makedirs(output_path)
+
+    # Open the PDF file
+    with WandImage(filename=doc_path, resolution=300) as img:
+        # Set the background color to white
+        img.background_color = Color("white")
+        # Set the resolution to 300dpi
+        img.resolution = (300, 300)
+        # Remove transparency and replace with bg
+        img.alpha_channel = 'remove'
+        # Convert PDF to PNG
+        img.format = 'png'
+        # Save the PNG with the same name as the PDF in the output directory
+        img.save(filename=os.path.join(output_path, os.path.basename(doc_path)[:-4] + '.png'))
+
 def main():
     
     with open(os.path.join('sample.txt'), 'r') as file:
@@ -95,21 +129,29 @@ def main():
     font_path = sys.argv[1]
     reportlab.rl_config.TTFSearchpath = font_path
 
-    fonts = get_fonts(font_path, 'ttf')
+    fonts = get_files(font_path, 'ttf')
     font_sizes = [12, 14, 16, 18, 20, 22, 24, 26]
     font_corpus = list(itertools.product(fonts, font_sizes))
 
-    progress_bar = tqdm(total=len(font_corpus), desc='Creating documents', unit='document')
+    """
+    document_progress_bar = tqdm(total=len(font_corpus), desc='Creating documents', unit='document')
     for font_path, font_size in font_corpus:
-
-        ttf_font = reportlab.pdfbase.ttfonts.TTFont(Path(font_path).stem, os.path.basename(font_path))
-        pdfmetrics.registerFont(ttf_font) # registering font on reportlab
-
+        register_font_reportlab(font_path)
         create_document(text=text_sample, 
                         font_path=font_path, 
                         font_size=font_size, 
                         output_path=os.path.join('dataset', 'pdf'))
-        progress_bar.update(1)
+        document_progress_bar.update(1)
+    document_progress_bar.close()
+    """
+
+    documents = get_files(os.path.join('dataset', 'pdf'), extension='pdf')
+    image_progress_bar = tqdm(total=len(documents), desc='Creating images', unit='images')
+    for document in documents:
+        
+        create_image(document, os.path.join('dataset', 'image'))
+        image_progress_bar.update(1)
+    image_progress_bar.close()
 
 if __name__ == '__main__':
     main()
