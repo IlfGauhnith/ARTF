@@ -48,7 +48,7 @@ def get_files(path, extension='ttf'):
 
     for root, _, files in os.walk(path):
         for file in files:
-            if file.endswith(f".{extension}"):
+            if file.lower().endswith(f".{extension}"):
                 file_paths.append(os.path.join(root, file))
     
     if not file_paths:
@@ -57,7 +57,6 @@ def get_files(path, extension='ttf'):
     return file_paths
 
 def register_font_reportlab(font_path):
-    
     try:
         ttf_font = reportlab.pdfbase.ttfonts.TTFont(Path(font_path).stem, os.path.basename(font_path))
         pdfmetrics.registerFont(ttf_font) # registering font on reportlab
@@ -65,16 +64,25 @@ def register_font_reportlab(font_path):
         logger.error(f"Error registering font {Path(font_path).stem} on ReportLab: {e}")
 
 
-def create_document(text, font_path, font_size=16, output_path='dataset'):
-    pdf_path = os.path.join(output_path, f"{Path(font_path).stem}_{font_size}.pdf")
+def create_document(text, font_path, font_size=16, output_path='dataset', underlined=False, striked=False):
+    if underlined:
+        text = '<u>' + text + '</u>'
+        pdf_path = os.path.join(output_path, f"(underlined){Path(font_path).stem}_{font_size}.pdf")
+    
+    elif striked:
+        text = '<strike>' + text + '</strike>'
+        pdf_path = os.path.join(output_path, f"(striked){Path(font_path).stem}_{font_size}.pdf")
+        
+    else:
+        pdf_path = os.path.join(output_path, f"{Path(font_path).stem}_{font_size}.pdf")
 
     if os.path.exists(pdf_path):
         logger.info(f"{Path(pdf_path).stem} already exists.")
         return
     
-    if not supports_latin_alphabet(font_path):
-        logger.info(f"{os.path.basename(font_path)} does not support latin alphabet.")
-        return
+    #if not supports_latin_alphabet(font_path):
+    #    logger.info(f"{os.path.basename(font_path)} does not support latin alphabet.")
+    #    return
             
     if not os.path.exists(output_path):
         os.makedirs(output_path)
@@ -127,31 +135,51 @@ def main():
         text_sample = file.read()
 
     font_path = sys.argv[1]
-    reportlab.rl_config.TTFSearchpath = font_path
-
+    reportlab.rl_config.TTFSearchPath.append(font_path) 
+    
     fonts = get_files(font_path, 'ttf')
-    font_sizes = [12, 14, 16, 18, 20, 22, 24, 26]
+    font_sizes = [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34]
     font_corpus = list(itertools.product(fonts, font_sizes))
 
-    """
     document_progress_bar = tqdm(total=len(font_corpus), desc='Creating documents', unit='document')
     for font_path, font_size in font_corpus:
         register_font_reportlab(font_path)
+        
+        dir_components = font_path.split(os.sep)
+        vox_atypl = dir_components[-2]
+        
         create_document(text=text_sample, 
                         font_path=font_path, 
                         font_size=font_size, 
-                        output_path=os.path.join('dataset', 'pdf'))
+                        output_path=os.path.join('dataset', 'pdf', vox_atypl))
+        
+        create_document(text=text_sample, 
+                        font_path=font_path, 
+                        font_size=font_size, 
+                        output_path=os.path.join('dataset', 'pdf', vox_atypl),
+                        underlined=True)
+        
+        create_document(text=text_sample, 
+                        font_path=font_path, 
+                        font_size=font_size, 
+                        output_path=os.path.join('dataset', 'pdf', vox_atypl),
+                        striked=True)
+        
         document_progress_bar.update(1)
     document_progress_bar.close()
-    """
-
+    
+    
     documents = get_files(os.path.join('dataset', 'pdf'), extension='pdf')
     image_progress_bar = tqdm(total=len(documents), desc='Creating images', unit='images')
     for document in documents:
         
-        create_image(document, os.path.join('dataset', 'image'))
+        dir_components = document.split(os.sep)
+        vox_atypl = dir_components[-2]
+        
+        create_image(document, os.path.join('dataset', 'image', vox_atypl))
         image_progress_bar.update(1)
     image_progress_bar.close()
-
+    
+    
 if __name__ == '__main__':
     main()
