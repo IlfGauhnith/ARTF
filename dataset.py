@@ -64,14 +64,13 @@ def register_font_reportlab(font_path):
         logger.error(f"Error registering font {Path(font_path).stem} on ReportLab: {e}")
 
 
-def create_document(text, font_path, font_size=16, output_path='dataset', underlined=False, striked=False):
+def create_document(text, font_path, font_size=16, output_path='dataset', underlined=False):
     if underlined:
         text = '<u>' + text + '</u>'
         pdf_path = os.path.join(output_path, f"(underlined){Path(font_path).stem}_{font_size}.pdf")
     
-    elif striked:
-        text = '<strike>' + text + '</strike>'
-        pdf_path = os.path.join(output_path, f"(striked){Path(font_path).stem}_{font_size}.pdf")
+    elif 'bold' in Path(font_path).stem.lower():
+        pdf_path = os.path.join(output_path, f"(bold){Path(font_path).stem}_{font_size}.pdf")
         
     else:
         pdf_path = os.path.join(output_path, f"{Path(font_path).stem}_{font_size}.pdf")
@@ -80,9 +79,6 @@ def create_document(text, font_path, font_size=16, output_path='dataset', underl
         logger.info(f"{Path(pdf_path).stem} already exists.")
         return
     
-    #if not supports_latin_alphabet(font_path):
-    #    logger.info(f"{os.path.basename(font_path)} does not support latin alphabet.")
-    #    return
             
     if not os.path.exists(output_path):
         os.makedirs(output_path)
@@ -158,12 +154,6 @@ def main():
                         font_size=font_size, 
                         output_path=os.path.join('dataset', 'pdf', vox_atypl),
                         underlined=True)
-        
-        create_document(text=text_sample, 
-                        font_path=font_path, 
-                        font_size=font_size, 
-                        output_path=os.path.join('dataset', 'pdf', vox_atypl),
-                        striked=True)
         
         document_progress_bar.update(1)
     document_progress_bar.close()

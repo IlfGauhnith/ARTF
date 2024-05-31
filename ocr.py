@@ -70,7 +70,7 @@ def experiment():
                 
                 font_name = Path(img_path).stem
                 font_name = font_name.replace("(underlined)", "")
-                font_name = font_name.replace("(striked)", "")
+                font_name = font_name.replace("(bold)", "")
                 
                 font_size = font_name.split("_")[-1]
                 
@@ -80,8 +80,8 @@ def experiment():
                                    'accuracy':f"{score:.2f}%", 
                                    'font_size': font_size, 
                                    'vox_atypl': dir, 
-                                   'underlined': 'underlined' in Path(img_path).stem, 
-                                   'striked': 'striked' in Path(img_path).stem, 
+                                   'underlined': 'underlined' in Path(img_path).stem,
+                                   'bold': 'bold' in Path(img_path).stem
                                    })
                 progress_bar.update(1)
 
