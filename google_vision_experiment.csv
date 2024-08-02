@@ -1,0 +1,1015 @@
+font_name,accuracy,font_size,vox_atypl,underlined,bold
+Bell MT,92.52%,10,didones,True,False
+Bell MT,97.20%,12,didones,True,False
+Bell MT,99.38%,14,didones,True,False
+Bell MT,96.88%,16,didones,True,False
+Bell MT,96.57%,18,didones,True,False
+Bell MT,96.57%,20,didones,True,False
+Bell MT,96.26%,22,didones,True,False
+Bell MT,95.95%,24,didones,True,False
+Bell MT,95.95%,26,didones,True,False
+Bell MT,96.26%,28,didones,True,False
+Bell MT,95.95%,30,didones,True,False
+Bell MT,95.95%,32,didones,True,False
+Bell MT,93.77%,34,didones,True,False
+bodoni,97.51%,10,didones,True,False
+bodoni,97.20%,12,didones,True,False
+bodoni,97.51%,14,didones,True,False
+bodoni,96.88%,16,didones,True,False
+bodoni,96.57%,18,didones,True,False
+bodoni,96.26%,20,didones,True,False
+bodoni,96.26%,22,didones,True,False
+bodoni,95.95%,24,didones,True,False
+bodoni,97.51%,26,didones,True,False
+bodoni,96.26%,28,didones,True,False
+bodoni,95.95%,30,didones,True,False
+bodoni,96.26%,32,didones,True,False
+bodoni,95.33%,34,didones,True,False
+CENTURY,97.20%,10,didones,True,False
+CENTURY,97.20%,12,didones,True,False
+CENTURY,96.88%,14,didones,True,False
+CENTURY,96.57%,16,didones,True,False
+CENTURY,96.26%,18,didones,True,False
+CENTURY,96.26%,20,didones,True,False
+CENTURY,95.95%,22,didones,True,False
+CENTURY,96.26%,24,didones,True,False
+CENTURY,95.95%,26,didones,True,False
+CENTURY,95.64%,28,didones,True,False
+CENTURY,96.26%,30,didones,True,False
+CENTURY,94.70%,32,didones,True,False
+CENTURY,94.39%,34,didones,True,False
+Didot,97.20%,10,didones,True,False
+Didot,97.20%,12,didones,True,False
+Didot,95.95%,14,didones,True,False
+Didot,96.57%,16,didones,True,False
+Didot,96.57%,18,didones,True,False
+Didot,96.26%,20,didones,True,False
+Didot,95.33%,22,didones,True,False
+Didot,96.26%,24,didones,True,False
+Didot,96.26%,26,didones,True,False
+Didot,95.95%,28,didones,True,False
+Didot,96.26%,30,didones,True,False
+Didot,95.33%,32,didones,True,False
+Didot,94.70%,34,didones,True,False
+falstaff-regular,95.95%,10,didones,True,False
+falstaff-regular,96.88%,12,didones,True,False
+falstaff-regular,97.51%,14,didones,True,False
+falstaff-regular,96.57%,16,didones,True,False
+falstaff-regular,96.57%,18,didones,True,False
+falstaff-regular,96.26%,20,didones,True,False
+falstaff-regular,95.95%,22,didones,True,False
+falstaff-regular,95.95%,24,didones,True,False
+falstaff-regular,96.26%,26,didones,True,False
+falstaff-regular,95.95%,28,didones,True,False
+falstaff-regular,95.95%,30,didones,True,False
+falstaff-regular,95.33%,32,didones,True,False
+falstaff-regular,94.39%,34,didones,True,False
+Bell MT,92.52%,10,didones,False,False
+Bell MT,97.20%,12,didones,False,False
+Bell MT,99.38%,14,didones,False,False
+Bell MT,96.88%,16,didones,False,False
+Bell MT,96.57%,18,didones,False,False
+Bell MT,96.57%,20,didones,False,False
+Bell MT,96.26%,22,didones,False,False
+Bell MT,95.95%,24,didones,False,False
+Bell MT,95.95%,26,didones,False,False
+Bell MT,90.34%,28,didones,False,False
+Bell MT,95.95%,30,didones,False,False
+Bell MT,95.95%,32,didones,False,False
+Bell MT,96.26%,34,didones,False,False
+bodoni,97.51%,10,didones,False,False
+bodoni,97.20%,12,didones,False,False
+bodoni,97.51%,14,didones,False,False
+bodoni,96.88%,16,didones,False,False
+bodoni,96.57%,18,didones,False,False
+bodoni,96.26%,20,didones,False,False
+bodoni,96.26%,22,didones,False,False
+bodoni,95.95%,24,didones,False,False
+bodoni,97.51%,26,didones,False,False
+bodoni,96.26%,28,didones,False,False
+bodoni,95.95%,30,didones,False,False
+bodoni,96.26%,32,didones,False,False
+bodoni,95.33%,34,didones,False,False
+CENTURY,97.20%,10,didones,False,False
+CENTURY,97.20%,12,didones,False,False
+CENTURY,96.88%,14,didones,False,False
+CENTURY,96.57%,16,didones,False,False
+CENTURY,96.26%,18,didones,False,False
+CENTURY,96.26%,20,didones,False,False
+CENTURY,95.95%,22,didones,False,False
+CENTURY,96.26%,24,didones,False,False
+CENTURY,95.95%,26,didones,False,False
+CENTURY,93.46%,28,didones,False,False
+CENTURY,96.26%,30,didones,False,False
+CENTURY,94.70%,32,didones,False,False
+CENTURY,94.39%,34,didones,False,False
+Didot,97.20%,10,didones,False,False
+Didot,97.20%,12,didones,False,False
+Didot,95.02%,14,didones,False,False
+Didot,96.57%,16,didones,False,False
+Didot,96.57%,18,didones,False,False
+Didot,93.77%,20,didones,False,False
+Didot,95.95%,22,didones,False,False
+Didot,96.26%,24,didones,False,False
+Didot,95.64%,26,didones,False,False
+Didot,95.95%,28,didones,False,False
+Didot,96.26%,30,didones,False,False
+Didot,95.33%,32,didones,False,False
+Didot,94.70%,34,didones,False,False
+falstaff-regular,96.88%,10,didones,False,False
+falstaff-regular,97.20%,12,didones,False,False
+falstaff-regular,97.51%,14,didones,False,False
+falstaff-regular,96.57%,16,didones,False,False
+falstaff-regular,96.57%,18,didones,False,False
+falstaff-regular,95.95%,20,didones,False,False
+falstaff-regular,95.95%,22,didones,False,False
+falstaff-regular,95.95%,24,didones,False,False
+falstaff-regular,95.02%,26,didones,False,False
+falstaff-regular,95.95%,28,didones,False,False
+falstaff-regular,95.95%,30,didones,False,False
+falstaff-regular,95.33%,32,didones,False,False
+falstaff-regular,94.70%,34,didones,False,False
+Bembo-Bold-Font,97.20%,10,garaldes,False,True
+Bembo-Bold-Font,97.20%,12,garaldes,False,True
+Bembo-Bold-Font,96.88%,14,garaldes,False,True
+Bembo-Bold-Font,96.57%,16,garaldes,False,True
+Bembo-Bold-Font,96.57%,18,garaldes,False,True
+Bembo-Bold-Font,96.88%,20,garaldes,False,True
+Bembo-Bold-Font,95.64%,22,garaldes,False,True
+Bembo-Bold-Font,97.20%,24,garaldes,False,True
+Bembo-Bold-Font,95.64%,26,garaldes,False,True
+Bembo-Bold-Font,95.95%,28,garaldes,False,True
+Bembo-Bold-Font,96.26%,30,garaldes,False,True
+Bembo-Bold-Font,94.70%,32,garaldes,False,True
+Bembo-Bold-Font,94.70%,34,garaldes,False,True
+Bembo-Bold-Font,97.20%,10,garaldes,True,False
+Bembo-Bold-Font,97.20%,12,garaldes,True,False
+Bembo-Bold-Font,96.88%,14,garaldes,True,False
+Bembo-Bold-Font,96.57%,16,garaldes,True,False
+Bembo-Bold-Font,96.57%,18,garaldes,True,False
+Bembo-Bold-Font,96.88%,20,garaldes,True,False
+Bembo-Bold-Font,95.95%,22,garaldes,True,False
+Bembo-Bold-Font,97.20%,24,garaldes,True,False
+Bembo-Bold-Font,95.64%,26,garaldes,True,False
+Bembo-Bold-Font,95.95%,28,garaldes,True,False
+Bembo-Bold-Font,96.26%,30,garaldes,True,False
+Bembo-Bold-Font,94.70%,32,garaldes,True,False
+Bembo-Bold-Font,94.70%,34,garaldes,True,False
+DeRoos,96.88%,10,garaldes,True,False
+DeRoos,97.82%,12,garaldes,True,False
+DeRoos,97.20%,14,garaldes,True,False
+DeRoos,96.88%,16,garaldes,True,False
+DeRoos,96.88%,18,garaldes,True,False
+DeRoos,96.57%,20,garaldes,True,False
+DeRoos,91.59%,22,garaldes,True,False
+DeRoos,96.88%,24,garaldes,True,False
+DeRoos,95.64%,26,garaldes,True,False
+DeRoos,95.64%,28,garaldes,True,False
+DeRoos,96.26%,30,garaldes,True,False
+DeRoos,93.15%,32,garaldes,True,False
+DeRoos,95.95%,34,garaldes,True,False
+Garamond Regular,97.51%,10,garaldes,True,False
+Garamond Regular,97.20%,12,garaldes,True,False
+Garamond Regular,97.20%,14,garaldes,True,False
+Garamond Regular,96.88%,16,garaldes,True,False
+Garamond Regular,96.57%,18,garaldes,True,False
+Garamond Regular,96.57%,20,garaldes,True,False
+Garamond Regular,96.26%,22,garaldes,True,False
+Garamond Regular,96.88%,24,garaldes,True,False
+Garamond Regular,95.95%,26,garaldes,True,False
+Garamond Regular,96.26%,28,garaldes,True,False
+Garamond Regular,95.95%,30,garaldes,True,False
+Garamond Regular,91.59%,32,garaldes,True,False
+Garamond Regular,95.95%,34,garaldes,True,False
+grandjean,17.45%,10,garaldes,True,False
+grandjean,16.82%,12,garaldes,True,False
+grandjean,15.89%,14,garaldes,True,False
+grandjean,14.95%,16,garaldes,True,False
+grandjean,15.26%,18,garaldes,True,False
+grandjean,11.84%,20,garaldes,True,False
+grandjean,15.89%,22,garaldes,True,False
+grandjean,15.26%,24,garaldes,True,False
+grandjean,14.95%,26,garaldes,True,False
+grandjean,11.84%,28,garaldes,True,False
+grandjean,15.26%,30,garaldes,True,False
+grandjean,15.58%,32,garaldes,True,False
+grandjean,14.02%,34,garaldes,True,False
+vendomeregular,97.20%,10,garaldes,True,False
+vendomeregular,97.20%,12,garaldes,True,False
+vendomeregular,97.51%,14,garaldes,True,False
+vendomeregular,97.20%,16,garaldes,True,False
+vendomeregular,96.57%,18,garaldes,True,False
+vendomeregular,96.26%,20,garaldes,True,False
+vendomeregular,95.95%,22,garaldes,True,False
+vendomeregular,95.95%,24,garaldes,True,False
+vendomeregular,96.26%,26,garaldes,True,False
+vendomeregular,95.95%,28,garaldes,True,False
+vendomeregular,95.95%,30,garaldes,True,False
+vendomeregular,96.26%,32,garaldes,True,False
+vendomeregular,94.70%,34,garaldes,True,False
+DeRoos,93.77%,10,garaldes,False,False
+DeRoos,97.82%,12,garaldes,False,False
+DeRoos,97.20%,14,garaldes,False,False
+DeRoos,95.02%,16,garaldes,False,False
+DeRoos,96.88%,18,garaldes,False,False
+DeRoos,96.57%,20,garaldes,False,False
+DeRoos,96.26%,22,garaldes,False,False
+DeRoos,96.88%,24,garaldes,False,False
+DeRoos,95.95%,26,garaldes,False,False
+DeRoos,95.95%,28,garaldes,False,False
+DeRoos,96.26%,30,garaldes,False,False
+DeRoos,96.26%,32,garaldes,False,False
+DeRoos,95.95%,34,garaldes,False,False
+Garamond Regular,97.51%,10,garaldes,False,False
+Garamond Regular,97.20%,12,garaldes,False,False
+Garamond Regular,97.20%,14,garaldes,False,False
+Garamond Regular,96.88%,16,garaldes,False,False
+Garamond Regular,96.57%,18,garaldes,False,False
+Garamond Regular,96.26%,20,garaldes,False,False
+Garamond Regular,96.26%,22,garaldes,False,False
+Garamond Regular,96.88%,24,garaldes,False,False
+Garamond Regular,95.64%,26,garaldes,False,False
+Garamond Regular,96.26%,28,garaldes,False,False
+Garamond Regular,96.26%,30,garaldes,False,False
+Garamond Regular,95.95%,32,garaldes,False,False
+Garamond Regular,95.95%,34,garaldes,False,False
+grandjean,17.13%,10,garaldes,False,False
+grandjean,15.26%,12,garaldes,False,False
+grandjean,15.89%,14,garaldes,False,False
+grandjean,13.40%,16,garaldes,False,False
+grandjean,15.58%,18,garaldes,False,False
+grandjean,10.28%,20,garaldes,False,False
+grandjean,15.89%,22,garaldes,False,False
+grandjean,14.64%,24,garaldes,False,False
+grandjean,14.64%,26,garaldes,False,False
+grandjean,13.08%,28,garaldes,False,False
+grandjean,15.58%,30,garaldes,False,False
+grandjean,15.89%,32,garaldes,False,False
+grandjean,14.02%,34,garaldes,False,False
+vendomeregular,97.20%,10,garaldes,False,False
+vendomeregular,97.20%,12,garaldes,False,False
+vendomeregular,97.51%,14,garaldes,False,False
+vendomeregular,97.20%,16,garaldes,False,False
+vendomeregular,96.57%,18,garaldes,False,False
+vendomeregular,96.26%,20,garaldes,False,False
+vendomeregular,95.95%,22,garaldes,False,False
+vendomeregular,95.95%,24,garaldes,False,False
+vendomeregular,96.26%,26,garaldes,False,False
+vendomeregular,95.95%,28,garaldes,False,False
+vendomeregular,95.95%,30,garaldes,False,False
+vendomeregular,96.26%,32,garaldes,False,False
+vendomeregular,94.70%,34,garaldes,False,False
+AshleyScriptMTStdRg,97.51%,10,humanistic,True,False
+AshleyScriptMTStdRg,97.51%,12,humanistic,True,False
+AshleyScriptMTStdRg,97.20%,14,humanistic,True,False
+AshleyScriptMTStdRg,97.20%,16,humanistic,True,False
+AshleyScriptMTStdRg,96.88%,18,humanistic,True,False
+AshleyScriptMTStdRg,96.88%,20,humanistic,True,False
+AshleyScriptMTStdRg,95.95%,22,humanistic,True,False
+AshleyScriptMTStdRg,96.26%,24,humanistic,True,False
+AshleyScriptMTStdRg,96.26%,26,humanistic,True,False
+AshleyScriptMTStdRg,95.95%,28,humanistic,True,False
+AshleyScriptMTStdRg,95.95%,30,humanistic,True,False
+AshleyScriptMTStdRg,95.33%,32,humanistic,True,False
+AshleyScriptMTStdRg,95.33%,34,humanistic,True,False
+Centaur-Regular,97.51%,10,humanistic,True,False
+Centaur-Regular,97.82%,12,humanistic,True,False
+Centaur-Regular,97.20%,14,humanistic,True,False
+Centaur-Regular,92.21%,16,humanistic,True,False
+Centaur-Regular,94.39%,18,humanistic,True,False
+Centaur-Regular,96.57%,20,humanistic,True,False
+Centaur-Regular,89.10%,22,humanistic,True,False
+Centaur-Regular,96.26%,24,humanistic,True,False
+Centaur-Regular,92.52%,26,humanistic,True,False
+Centaur-Regular,90.03%,28,humanistic,True,False
+Centaur-Regular,96.57%,30,humanistic,True,False
+Centaur-Regular,95.64%,32,humanistic,True,False
+Centaur-Regular,95.64%,34,humanistic,True,False
+DeRoos,96.88%,10,humanistic,True,False
+DeRoos,97.82%,12,humanistic,True,False
+DeRoos,97.20%,14,humanistic,True,False
+DeRoos,96.88%,16,humanistic,True,False
+DeRoos,96.88%,18,humanistic,True,False
+DeRoos,96.57%,20,humanistic,True,False
+DeRoos,91.59%,22,humanistic,True,False
+DeRoos,96.88%,24,humanistic,True,False
+DeRoos,95.64%,26,humanistic,True,False
+DeRoos,95.64%,28,humanistic,True,False
+DeRoos,96.26%,30,humanistic,True,False
+DeRoos,93.15%,32,humanistic,True,False
+DeRoos,95.95%,34,humanistic,True,False
+perpetua,20.56%,10,humanistic,True,False
+perpetua,19.63%,12,humanistic,True,False
+perpetua,19.63%,14,humanistic,True,False
+perpetua,19.63%,16,humanistic,True,False
+perpetua,19.00%,18,humanistic,True,False
+perpetua,19.31%,20,humanistic,True,False
+perpetua,18.38%,22,humanistic,True,False
+perpetua,19.31%,24,humanistic,True,False
+perpetua,18.07%,26,humanistic,True,False
+perpetua,18.07%,28,humanistic,True,False
+perpetua,19.63%,30,humanistic,True,False
+perpetua,18.07%,32,humanistic,True,False
+perpetua,19.00%,34,humanistic,True,False
+AshleyScriptMTStdRg,97.51%,10,humanistic,False,False
+AshleyScriptMTStdRg,97.51%,12,humanistic,False,False
+AshleyScriptMTStdRg,97.20%,14,humanistic,False,False
+AshleyScriptMTStdRg,97.20%,16,humanistic,False,False
+AshleyScriptMTStdRg,96.88%,18,humanistic,False,False
+AshleyScriptMTStdRg,96.88%,20,humanistic,False,False
+AshleyScriptMTStdRg,95.02%,22,humanistic,False,False
+AshleyScriptMTStdRg,96.26%,24,humanistic,False,False
+AshleyScriptMTStdRg,96.26%,26,humanistic,False,False
+AshleyScriptMTStdRg,95.95%,28,humanistic,False,False
+AshleyScriptMTStdRg,95.95%,30,humanistic,False,False
+AshleyScriptMTStdRg,95.33%,32,humanistic,False,False
+AshleyScriptMTStdRg,95.33%,34,humanistic,False,False
+Centaur-Regular,71.96%,10,humanistic,False,False
+Centaur-Regular,97.51%,12,humanistic,False,False
+Centaur-Regular,97.20%,14,humanistic,False,False
+Centaur-Regular,90.65%,16,humanistic,False,False
+Centaur-Regular,81.00%,18,humanistic,False,False
+Centaur-Regular,96.57%,20,humanistic,False,False
+Centaur-Regular,89.10%,22,humanistic,False,False
+Centaur-Regular,92.52%,24,humanistic,False,False
+Centaur-Regular,80.69%,26,humanistic,False,False
+Centaur-Regular,73.52%,28,humanistic,False,False
+Centaur-Regular,87.54%,30,humanistic,False,False
+Centaur-Regular,95.33%,32,humanistic,False,False
+Centaur-Regular,94.39%,34,humanistic,False,False
+DeRoos,93.77%,10,humanistic,False,False
+DeRoos,97.82%,12,humanistic,False,False
+DeRoos,97.20%,14,humanistic,False,False
+DeRoos,95.02%,16,humanistic,False,False
+DeRoos,96.88%,18,humanistic,False,False
+DeRoos,96.57%,20,humanistic,False,False
+DeRoos,96.26%,22,humanistic,False,False
+DeRoos,96.88%,24,humanistic,False,False
+DeRoos,95.95%,26,humanistic,False,False
+DeRoos,95.95%,28,humanistic,False,False
+DeRoos,96.26%,30,humanistic,False,False
+DeRoos,96.26%,32,humanistic,False,False
+DeRoos,95.95%,34,humanistic,False,False
+perpetua,21.50%,10,humanistic,False,False
+perpetua,19.94%,12,humanistic,False,False
+perpetua,19.94%,14,humanistic,False,False
+perpetua,19.63%,16,humanistic,False,False
+perpetua,19.31%,18,humanistic,False,False
+perpetua,19.31%,20,humanistic,False,False
+perpetua,19.00%,22,humanistic,False,False
+perpetua,19.94%,24,humanistic,False,False
+perpetua,18.38%,26,humanistic,False,False
+perpetua,17.45%,28,humanistic,False,False
+perpetua,18.38%,30,humanistic,False,False
+perpetua,18.07%,32,humanistic,False,False
+perpetua,19.00%,34,humanistic,False,False
+Albertus Medium Regular,96.57%,10,incised,True,False
+Albertus Medium Regular,97.20%,12,incised,True,False
+Albertus Medium Regular,97.51%,14,incised,True,False
+Albertus Medium Regular,96.88%,16,incised,True,False
+Albertus Medium Regular,96.57%,18,incised,True,False
+Albertus Medium Regular,96.26%,20,incised,True,False
+Albertus Medium Regular,96.26%,22,incised,True,False
+Albertus Medium Regular,95.95%,24,incised,True,False
+Albertus Medium Regular,97.82%,26,incised,True,False
+Albertus Medium Regular,95.95%,28,incised,True,False
+Albertus Medium Regular,95.95%,30,incised,True,False
+Albertus Medium Regular,96.26%,32,incised,True,False
+Albertus Medium Regular,95.33%,34,incised,True,False
+mercurius,97.20%,10,incised,True,False
+mercurius,97.20%,12,incised,True,False
+mercurius,97.51%,14,incised,True,False
+mercurius,96.57%,16,incised,True,False
+mercurius,96.57%,18,incised,True,False
+mercurius,96.26%,20,incised,True,False
+mercurius,95.95%,22,incised,True,False
+mercurius,95.95%,24,incised,True,False
+mercurius,96.26%,26,incised,True,False
+mercurius,95.95%,28,incised,True,False
+mercurius,95.95%,30,incised,True,False
+mercurius,95.33%,32,incised,True,False
+mercurius,94.70%,34,incised,True,False
+OPTIMA,97.82%,10,incised,True,False
+OPTIMA,97.20%,12,incised,True,False
+OPTIMA,97.51%,14,incised,True,False
+OPTIMA,96.88%,16,incised,True,False
+OPTIMA,96.57%,18,incised,True,False
+OPTIMA,96.88%,20,incised,True,False
+OPTIMA,95.95%,22,incised,True,False
+OPTIMA,95.95%,24,incised,True,False
+OPTIMA,96.26%,26,incised,True,False
+OPTIMA,95.95%,28,incised,True,False
+OPTIMA,95.95%,30,incised,True,False
+OPTIMA,96.26%,32,incised,True,False
+OPTIMA,95.33%,34,incised,True,False
+Albertus Medium Regular,96.57%,10,incised,False,False
+Albertus Medium Regular,97.20%,12,incised,False,False
+Albertus Medium Regular,97.20%,14,incised,False,False
+Albertus Medium Regular,96.88%,16,incised,False,False
+Albertus Medium Regular,96.57%,18,incised,False,False
+Albertus Medium Regular,96.26%,20,incised,False,False
+Albertus Medium Regular,96.26%,22,incised,False,False
+Albertus Medium Regular,95.95%,24,incised,False,False
+Albertus Medium Regular,97.82%,26,incised,False,False
+Albertus Medium Regular,95.95%,28,incised,False,False
+Albertus Medium Regular,95.95%,30,incised,False,False
+Albertus Medium Regular,96.26%,32,incised,False,False
+Albertus Medium Regular,95.33%,34,incised,False,False
+mercurius,97.20%,10,incised,False,False
+mercurius,97.20%,12,incised,False,False
+mercurius,97.51%,14,incised,False,False
+mercurius,96.57%,16,incised,False,False
+mercurius,96.57%,18,incised,False,False
+mercurius,96.26%,20,incised,False,False
+mercurius,95.95%,22,incised,False,False
+mercurius,95.95%,24,incised,False,False
+mercurius,95.33%,26,incised,False,False
+mercurius,95.95%,28,incised,False,False
+mercurius,95.95%,30,incised,False,False
+mercurius,95.33%,32,incised,False,False
+mercurius,94.70%,34,incised,False,False
+OPTIMA,97.82%,10,incised,False,False
+OPTIMA,97.20%,12,incised,False,False
+OPTIMA,97.51%,14,incised,False,False
+OPTIMA,96.88%,16,incised,False,False
+OPTIMA,96.57%,18,incised,False,False
+OPTIMA,96.88%,20,incised,False,False
+OPTIMA,95.64%,22,incised,False,False
+OPTIMA,95.95%,24,incised,False,False
+OPTIMA,95.95%,26,incised,False,False
+OPTIMA,95.95%,28,incised,False,False
+OPTIMA,95.95%,30,incised,False,False
+OPTIMA,96.26%,32,incised,False,False
+OPTIMA,95.33%,34,incised,False,False
+City Medium,97.51%,10,lineal,True,False
+City Medium,97.20%,12,lineal,True,False
+City Medium,97.20%,14,lineal,True,False
+City Medium,96.88%,16,lineal,True,False
+City Medium,97.20%,18,lineal,True,False
+City Medium,96.57%,20,lineal,True,False
+City Medium,96.88%,22,lineal,True,False
+City Medium,96.26%,24,lineal,True,False
+City Medium,95.33%,26,lineal,True,False
+City Medium,96.26%,28,lineal,True,False
+City Medium,95.95%,30,lineal,True,False
+City Medium,95.95%,32,lineal,True,False
+City Medium,95.95%,34,lineal,True,False
+FUTURA55REGULAR,75.70%,10,lineal,True,False
+FUTURA55REGULAR,97.20%,12,lineal,True,False
+FUTURA55REGULAR,97.20%,14,lineal,True,False
+FUTURA55REGULAR,97.51%,16,lineal,True,False
+FUTURA55REGULAR,96.88%,18,lineal,True,False
+FUTURA55REGULAR,96.57%,20,lineal,True,False
+FUTURA55REGULAR,96.88%,22,lineal,True,False
+FUTURA55REGULAR,96.26%,24,lineal,True,False
+FUTURA55REGULAR,95.33%,26,lineal,True,False
+FUTURA55REGULAR,95.95%,28,lineal,True,False
+FUTURA55REGULAR,96.26%,30,lineal,True,False
+FUTURA55REGULAR,95.95%,32,lineal,True,False
+FUTURA55REGULAR,95.64%,34,lineal,True,False
+peignot,85.05%,10,lineal,True,False
+peignot,64.80%,12,lineal,True,False
+peignot,80.37%,14,lineal,True,False
+peignot,75.08%,16,lineal,True,False
+peignot,81.31%,18,lineal,True,False
+peignot,67.60%,20,lineal,True,False
+peignot,75.08%,22,lineal,True,False
+peignot,62.93%,24,lineal,True,False
+peignot,63.24%,26,lineal,True,False
+peignot,71.96%,28,lineal,True,False
+peignot,56.39%,30,lineal,True,False
+peignot,55.14%,32,lineal,True,False
+peignot,67.91%,34,lineal,True,False
+City Medium,97.51%,10,lineal,False,False
+City Medium,97.20%,12,lineal,False,False
+City Medium,97.20%,14,lineal,False,False
+City Medium,96.88%,16,lineal,False,False
+City Medium,97.20%,18,lineal,False,False
+City Medium,96.57%,20,lineal,False,False
+City Medium,96.88%,22,lineal,False,False
+City Medium,96.26%,24,lineal,False,False
+City Medium,95.95%,26,lineal,False,False
+City Medium,96.26%,28,lineal,False,False
+City Medium,95.95%,30,lineal,False,False
+City Medium,95.95%,32,lineal,False,False
+City Medium,95.95%,34,lineal,False,False
+FUTURA55REGULAR,97.20%,10,lineal,False,False
+FUTURA55REGULAR,94.70%,12,lineal,False,False
+FUTURA55REGULAR,89.10%,14,lineal,False,False
+FUTURA55REGULAR,97.51%,16,lineal,False,False
+FUTURA55REGULAR,96.88%,18,lineal,False,False
+FUTURA55REGULAR,96.57%,20,lineal,False,False
+FUTURA55REGULAR,96.88%,22,lineal,False,False
+FUTURA55REGULAR,95.95%,24,lineal,False,False
+FUTURA55REGULAR,95.02%,26,lineal,False,False
+FUTURA55REGULAR,95.64%,28,lineal,False,False
+FUTURA55REGULAR,96.26%,30,lineal,False,False
+FUTURA55REGULAR,95.95%,32,lineal,False,False
+FUTURA55REGULAR,95.64%,34,lineal,False,False
+peignot,73.52%,10,lineal,False,False
+peignot,78.82%,12,lineal,False,False
+peignot,65.11%,14,lineal,False,False
+peignot,72.59%,16,lineal,False,False
+peignot,74.14%,18,lineal,False,False
+peignot,38.94%,20,lineal,False,False
+peignot,72.27%,22,lineal,False,False
+peignot,58.26%,24,lineal,False,False
+peignot,35.51%,26,lineal,False,False
+peignot,57.01%,28,lineal,False,False
+peignot,54.83%,30,lineal,False,False
+peignot,58.26%,32,lineal,False,False
+peignot,63.24%,34,lineal,False,False
+AshleyScriptMTStdRg,97.51%,10,manual,True,False
+AshleyScriptMTStdRg,97.51%,12,manual,True,False
+AshleyScriptMTStdRg,97.20%,14,manual,True,False
+AshleyScriptMTStdRg,97.20%,16,manual,True,False
+AshleyScriptMTStdRg,96.88%,18,manual,True,False
+AshleyScriptMTStdRg,96.88%,20,manual,True,False
+AshleyScriptMTStdRg,95.95%,22,manual,True,False
+AshleyScriptMTStdRg,96.26%,24,manual,True,False
+AshleyScriptMTStdRg,96.26%,26,manual,True,False
+AshleyScriptMTStdRg,95.95%,28,manual,True,False
+AshleyScriptMTStdRg,95.95%,30,manual,True,False
+AshleyScriptMTStdRg,95.33%,32,manual,True,False
+AshleyScriptMTStdRg,95.33%,34,manual,True,False
+balzac,93.15%,10,manual,True,False
+balzac,95.64%,12,manual,True,False
+balzac,93.46%,14,manual,True,False
+balzac,96.57%,16,manual,True,False
+balzac,95.64%,18,manual,True,False
+balzac,89.41%,20,manual,True,False
+balzac,95.64%,22,manual,True,False
+balzac,94.08%,24,manual,True,False
+balzac,95.64%,26,manual,True,False
+balzac,95.95%,28,manual,True,False
+balzac,93.15%,30,manual,True,False
+balzac,94.39%,32,manual,True,False
+balzac,92.83%,34,manual,True,False
+BreitkopfFraktur,97.20%,10,manual,True,False
+BreitkopfFraktur,96.88%,12,manual,True,False
+BreitkopfFraktur,96.88%,14,manual,True,False
+BreitkopfFraktur,96.57%,16,manual,True,False
+BreitkopfFraktur,98.44%,18,manual,True,False
+BreitkopfFraktur,96.57%,20,manual,True,False
+BreitkopfFraktur,96.26%,22,manual,True,False
+BreitkopfFraktur,96.26%,24,manual,True,False
+BreitkopfFraktur,96.26%,26,manual,True,False
+BreitkopfFraktur,95.64%,28,manual,True,False
+BreitkopfFraktur,95.64%,30,manual,True,False
+BreitkopfFraktur,95.64%,32,manual,True,False
+BreitkopfFraktur,95.95%,34,manual,True,False
+Dom Regular,97.20%,10,manual,True,False
+Dom Regular,97.51%,12,manual,True,False
+Dom Regular,97.20%,14,manual,True,False
+Dom Regular,97.20%,16,manual,True,False
+Dom Regular,97.20%,18,manual,True,False
+Dom Regular,96.88%,20,manual,True,False
+Dom Regular,96.26%,22,manual,True,False
+Dom Regular,96.57%,24,manual,True,False
+Dom Regular,96.57%,26,manual,True,False
+Dom Regular,96.88%,28,manual,True,False
+Dom Regular,95.95%,30,manual,True,False
+Dom Regular,95.95%,32,manual,True,False
+Dom Regular,95.64%,34,manual,True,False
+Libra Regular,97.51%,10,manual,True,False
+Libra Regular,96.57%,12,manual,True,False
+Libra Regular,93.15%,14,manual,True,False
+Libra Regular,96.88%,16,manual,True,False
+Libra Regular,93.46%,18,manual,True,False
+Libra Regular,93.15%,20,manual,True,False
+Libra Regular,95.95%,22,manual,True,False
+Libra Regular,90.97%,24,manual,True,False
+Libra Regular,90.34%,26,manual,True,False
+Libra Regular,92.52%,28,manual,True,False
+Libra Regular,88.47%,30,manual,True,False
+Libra Regular,86.60%,32,manual,True,False
+Libra Regular,92.83%,34,manual,True,False
+AshleyScriptMTStdRg,97.51%,10,manual,False,False
+AshleyScriptMTStdRg,97.51%,12,manual,False,False
+AshleyScriptMTStdRg,97.20%,14,manual,False,False
+AshleyScriptMTStdRg,97.20%,16,manual,False,False
+AshleyScriptMTStdRg,96.88%,18,manual,False,False
+AshleyScriptMTStdRg,96.88%,20,manual,False,False
+AshleyScriptMTStdRg,95.02%,22,manual,False,False
+AshleyScriptMTStdRg,96.26%,24,manual,False,False
+AshleyScriptMTStdRg,96.26%,26,manual,False,False
+AshleyScriptMTStdRg,95.95%,28,manual,False,False
+AshleyScriptMTStdRg,95.95%,30,manual,False,False
+AshleyScriptMTStdRg,95.33%,32,manual,False,False
+AshleyScriptMTStdRg,95.33%,34,manual,False,False
+balzac,96.88%,10,manual,False,False
+balzac,94.08%,12,manual,False,False
+balzac,91.28%,14,manual,False,False
+balzac,95.64%,16,manual,False,False
+balzac,95.95%,18,manual,False,False
+balzac,96.26%,20,manual,False,False
+balzac,95.02%,22,manual,False,False
+balzac,96.57%,24,manual,False,False
+balzac,95.64%,26,manual,False,False
+balzac,95.64%,28,manual,False,False
+balzac,91.28%,30,manual,False,False
+balzac,94.08%,32,manual,False,False
+balzac,94.39%,34,manual,False,False
+BreitkopfFraktur,97.51%,10,manual,False,False
+BreitkopfFraktur,97.20%,12,manual,False,False
+BreitkopfFraktur,96.88%,14,manual,False,False
+BreitkopfFraktur,96.88%,16,manual,False,False
+BreitkopfFraktur,98.75%,18,manual,False,False
+BreitkopfFraktur,96.88%,20,manual,False,False
+BreitkopfFraktur,96.26%,22,manual,False,False
+BreitkopfFraktur,96.57%,24,manual,False,False
+BreitkopfFraktur,95.95%,26,manual,False,False
+BreitkopfFraktur,96.26%,28,manual,False,False
+BreitkopfFraktur,95.33%,30,manual,False,False
+BreitkopfFraktur,95.64%,32,manual,False,False
+BreitkopfFraktur,95.95%,34,manual,False,False
+Dom Regular,97.51%,10,manual,False,False
+Dom Regular,97.51%,12,manual,False,False
+Dom Regular,97.20%,14,manual,False,False
+Dom Regular,97.20%,16,manual,False,False
+Dom Regular,97.20%,18,manual,False,False
+Dom Regular,96.88%,20,manual,False,False
+Dom Regular,96.88%,22,manual,False,False
+Dom Regular,96.57%,24,manual,False,False
+Dom Regular,96.57%,26,manual,False,False
+Dom Regular,96.88%,28,manual,False,False
+Dom Regular,95.95%,30,manual,False,False
+Dom Regular,95.95%,32,manual,False,False
+Dom Regular,95.64%,34,manual,False,False
+Libra Regular,97.51%,10,manual,False,False
+Libra Regular,96.26%,12,manual,False,False
+Libra Regular,91.90%,14,manual,False,False
+Libra Regular,96.88%,16,manual,False,False
+Libra Regular,95.95%,18,manual,False,False
+Libra Regular,93.46%,20,manual,False,False
+Libra Regular,94.70%,22,manual,False,False
+Libra Regular,91.59%,24,manual,False,False
+Libra Regular,89.72%,26,manual,False,False
+Libra Regular,94.39%,28,manual,False,False
+Libra Regular,88.47%,30,manual,False,False
+Libra Regular,92.21%,32,manual,False,False
+Libra Regular,94.39%,34,manual,False,False
+Caslon Ionic Web Regular Regular,97.20%,10,mechanistic,True,False
+Caslon Ionic Web Regular Regular,97.51%,12,mechanistic,True,False
+Caslon Ionic Web Regular Regular,96.57%,14,mechanistic,True,False
+Caslon Ionic Web Regular Regular,96.26%,16,mechanistic,True,False
+Caslon Ionic Web Regular Regular,96.26%,18,mechanistic,True,False
+Caslon Ionic Web Regular Regular,95.95%,20,mechanistic,True,False
+Caslon Ionic Web Regular Regular,96.26%,22,mechanistic,True,False
+Caslon Ionic Web Regular Regular,95.95%,24,mechanistic,True,False
+Caslon Ionic Web Regular Regular,96.26%,26,mechanistic,True,False
+Caslon Ionic Web Regular Regular,95.33%,28,mechanistic,True,False
+Caslon Ionic Web Regular Regular,94.39%,30,mechanistic,True,False
+Caslon Ionic Web Regular Regular,94.08%,32,mechanistic,True,False
+Caslon Ionic Web Regular Regular,96.26%,34,mechanistic,True,False
+CENTURY,97.20%,10,mechanistic,True,False
+CENTURY,97.20%,12,mechanistic,True,False
+CENTURY,96.88%,14,mechanistic,True,False
+CENTURY,96.57%,16,mechanistic,True,False
+CENTURY,96.26%,18,mechanistic,True,False
+CENTURY,96.26%,20,mechanistic,True,False
+CENTURY,95.95%,22,mechanistic,True,False
+CENTURY,96.26%,24,mechanistic,True,False
+CENTURY,95.95%,26,mechanistic,True,False
+CENTURY,95.64%,28,mechanistic,True,False
+CENTURY,96.26%,30,mechanistic,True,False
+CENTURY,94.70%,32,mechanistic,True,False
+CENTURY,94.39%,34,mechanistic,True,False
+City Medium,97.51%,10,mechanistic,True,False
+City Medium,97.20%,12,mechanistic,True,False
+City Medium,97.20%,14,mechanistic,True,False
+City Medium,96.88%,16,mechanistic,True,False
+City Medium,97.20%,18,mechanistic,True,False
+City Medium,96.57%,20,mechanistic,True,False
+City Medium,96.88%,22,mechanistic,True,False
+City Medium,96.26%,24,mechanistic,True,False
+City Medium,95.33%,26,mechanistic,True,False
+City Medium,96.26%,28,mechanistic,True,False
+City Medium,95.95%,30,mechanistic,True,False
+City Medium,95.95%,32,mechanistic,True,False
+City Medium,95.95%,34,mechanistic,True,False
+Clarendon-Regular,97.20%,10,mechanistic,True,False
+Clarendon-Regular,97.51%,12,mechanistic,True,False
+Clarendon-Regular,96.57%,14,mechanistic,True,False
+Clarendon-Regular,96.88%,16,mechanistic,True,False
+Clarendon-Regular,96.26%,18,mechanistic,True,False
+Clarendon-Regular,95.95%,20,mechanistic,True,False
+Clarendon-Regular,96.26%,22,mechanistic,True,False
+Clarendon-Regular,95.95%,24,mechanistic,True,False
+Clarendon-Regular,96.26%,26,mechanistic,True,False
+Clarendon-Regular,95.33%,28,mechanistic,True,False
+Clarendon-Regular,94.39%,30,mechanistic,True,False
+Clarendon-Regular,94.08%,32,mechanistic,True,False
+Clarendon-Regular,95.64%,34,mechanistic,True,False
+Rockwell,97.20%,10,mechanistic,True,False
+Rockwell,97.20%,12,mechanistic,True,False
+Rockwell,96.88%,14,mechanistic,True,False
+Rockwell,96.57%,16,mechanistic,True,False
+Rockwell,96.26%,18,mechanistic,True,False
+Rockwell,96.26%,20,mechanistic,True,False
+Rockwell,95.95%,22,mechanistic,True,False
+Rockwell,96.26%,24,mechanistic,True,False
+Rockwell,95.95%,26,mechanistic,True,False
+Rockwell,95.95%,28,mechanistic,True,False
+Rockwell,96.26%,30,mechanistic,True,False
+Rockwell,95.33%,32,mechanistic,True,False
+Rockwell,94.39%,34,mechanistic,True,False
+Caslon Ionic Web Regular Regular,97.20%,10,mechanistic,False,False
+Caslon Ionic Web Regular Regular,97.51%,12,mechanistic,False,False
+Caslon Ionic Web Regular Regular,96.57%,14,mechanistic,False,False
+Caslon Ionic Web Regular Regular,96.26%,16,mechanistic,False,False
+Caslon Ionic Web Regular Regular,96.26%,18,mechanistic,False,False
+Caslon Ionic Web Regular Regular,95.95%,20,mechanistic,False,False
+Caslon Ionic Web Regular Regular,96.26%,22,mechanistic,False,False
+Caslon Ionic Web Regular Regular,95.95%,24,mechanistic,False,False
+Caslon Ionic Web Regular Regular,96.26%,26,mechanistic,False,False
+Caslon Ionic Web Regular Regular,95.33%,28,mechanistic,False,False
+Caslon Ionic Web Regular Regular,94.39%,30,mechanistic,False,False
+Caslon Ionic Web Regular Regular,94.08%,32,mechanistic,False,False
+Caslon Ionic Web Regular Regular,96.26%,34,mechanistic,False,False
+CENTURY,97.20%,10,mechanistic,False,False
+CENTURY,97.20%,12,mechanistic,False,False
+CENTURY,96.88%,14,mechanistic,False,False
+CENTURY,96.57%,16,mechanistic,False,False
+CENTURY,96.26%,18,mechanistic,False,False
+CENTURY,96.26%,20,mechanistic,False,False
+CENTURY,95.95%,22,mechanistic,False,False
+CENTURY,96.26%,24,mechanistic,False,False
+CENTURY,95.95%,26,mechanistic,False,False
+CENTURY,93.46%,28,mechanistic,False,False
+CENTURY,96.26%,30,mechanistic,False,False
+CENTURY,94.70%,32,mechanistic,False,False
+CENTURY,94.39%,34,mechanistic,False,False
+City Medium,97.51%,10,mechanistic,False,False
+City Medium,97.20%,12,mechanistic,False,False
+City Medium,97.20%,14,mechanistic,False,False
+City Medium,96.88%,16,mechanistic,False,False
+City Medium,97.20%,18,mechanistic,False,False
+City Medium,96.57%,20,mechanistic,False,False
+City Medium,96.88%,22,mechanistic,False,False
+City Medium,96.26%,24,mechanistic,False,False
+City Medium,95.95%,26,mechanistic,False,False
+City Medium,96.26%,28,mechanistic,False,False
+City Medium,95.95%,30,mechanistic,False,False
+City Medium,95.95%,32,mechanistic,False,False
+City Medium,95.95%,34,mechanistic,False,False
+Clarendon-Regular,97.20%,10,mechanistic,False,False
+Clarendon-Regular,97.51%,12,mechanistic,False,False
+Clarendon-Regular,96.57%,14,mechanistic,False,False
+Clarendon-Regular,96.88%,16,mechanistic,False,False
+Clarendon-Regular,96.26%,18,mechanistic,False,False
+Clarendon-Regular,95.95%,20,mechanistic,False,False
+Clarendon-Regular,96.26%,22,mechanistic,False,False
+Clarendon-Regular,95.95%,24,mechanistic,False,False
+Clarendon-Regular,96.26%,26,mechanistic,False,False
+Clarendon-Regular,95.33%,28,mechanistic,False,False
+Clarendon-Regular,94.39%,30,mechanistic,False,False
+Clarendon-Regular,94.08%,32,mechanistic,False,False
+Clarendon-Regular,95.33%,34,mechanistic,False,False
+Rockwell,97.20%,10,mechanistic,False,False
+Rockwell,97.20%,12,mechanistic,False,False
+Rockwell,96.88%,14,mechanistic,False,False
+Rockwell,96.57%,16,mechanistic,False,False
+Rockwell,96.26%,18,mechanistic,False,False
+Rockwell,96.26%,20,mechanistic,False,False
+Rockwell,95.95%,22,mechanistic,False,False
+Rockwell,96.26%,24,mechanistic,False,False
+Rockwell,95.95%,26,mechanistic,False,False
+Rockwell,95.95%,28,mechanistic,False,False
+Rockwell,96.26%,30,mechanistic,False,False
+Rockwell,95.33%,32,mechanistic,False,False
+Rockwell,94.39%,34,mechanistic,False,False
+Anglaise,97.20%,10,scripts,True,False
+Anglaise,95.33%,12,scripts,True,False
+Anglaise,96.57%,14,scripts,True,False
+Anglaise,96.26%,16,scripts,True,False
+Anglaise,95.64%,18,scripts,True,False
+Anglaise,96.26%,20,scripts,True,False
+Anglaise,95.64%,22,scripts,True,False
+Anglaise,93.77%,24,scripts,True,False
+Anglaise,95.02%,26,scripts,True,False
+Anglaise,93.15%,28,scripts,True,False
+Anglaise,92.52%,30,scripts,True,False
+Anglaise,93.77%,32,scripts,True,False
+Anglaise,93.15%,34,scripts,True,False
+balzac,93.15%,10,scripts,True,False
+balzac,95.64%,12,scripts,True,False
+balzac,93.46%,14,scripts,True,False
+balzac,96.57%,16,scripts,True,False
+balzac,95.64%,18,scripts,True,False
+balzac,89.41%,20,scripts,True,False
+balzac,95.64%,22,scripts,True,False
+balzac,94.08%,24,scripts,True,False
+balzac,95.64%,26,scripts,True,False
+balzac,95.95%,28,scripts,True,False
+balzac,95.33%,30,scripts,True,False
+balzac,94.39%,32,scripts,True,False
+balzac,92.83%,34,scripts,True,False
+mercurius,97.20%,10,scripts,True,False
+mercurius,97.20%,12,scripts,True,False
+mercurius,97.51%,14,scripts,True,False
+mercurius,96.57%,16,scripts,True,False
+mercurius,96.57%,18,scripts,True,False
+mercurius,96.26%,20,scripts,True,False
+mercurius,95.95%,22,scripts,True,False
+mercurius,95.95%,24,scripts,True,False
+mercurius,96.26%,26,scripts,True,False
+mercurius,95.95%,28,scripts,True,False
+mercurius,95.95%,30,scripts,True,False
+mercurius,95.33%,32,scripts,True,False
+mercurius,94.70%,34,scripts,True,False
+MISTRAL,90.65%,10,scripts,True,False
+MISTRAL,95.64%,12,scripts,True,False
+MISTRAL,94.39%,14,scripts,True,False
+MISTRAL,87.54%,16,scripts,True,False
+MISTRAL,72.59%,18,scripts,True,False
+MISTRAL,89.10%,20,scripts,True,False
+MISTRAL,62.93%,22,scripts,True,False
+MISTRAL,85.05%,24,scripts,True,False
+MISTRAL,77.88%,26,scripts,True,False
+MISTRAL,87.23%,28,scripts,True,False
+MISTRAL,79.75%,30,scripts,True,False
+MISTRAL,54.83%,32,scripts,True,False
+MISTRAL,88.79%,34,scripts,True,False
+Anglaise,95.95%,10,scripts,False,False
+Anglaise,97.20%,12,scripts,False,False
+Anglaise,70.09%,14,scripts,False,False
+Anglaise,92.83%,16,scripts,False,False
+Anglaise,95.95%,18,scripts,False,False
+Anglaise,93.15%,20,scripts,False,False
+Anglaise,96.57%,22,scripts,False,False
+Anglaise,94.08%,24,scripts,False,False
+Anglaise,88.47%,26,scripts,False,False
+Anglaise,95.33%,28,scripts,False,False
+Anglaise,95.95%,30,scripts,False,False
+Anglaise,93.15%,32,scripts,False,False
+Anglaise,95.33%,34,scripts,False,False
+balzac,96.88%,10,scripts,False,False
+balzac,94.08%,12,scripts,False,False
+balzac,91.28%,14,scripts,False,False
+balzac,95.64%,16,scripts,False,False
+balzac,95.95%,18,scripts,False,False
+balzac,96.26%,20,scripts,False,False
+balzac,95.02%,22,scripts,False,False
+balzac,96.57%,24,scripts,False,False
+balzac,95.64%,26,scripts,False,False
+balzac,95.64%,28,scripts,False,False
+balzac,91.28%,30,scripts,False,False
+balzac,94.08%,32,scripts,False,False
+balzac,94.39%,34,scripts,False,False
+mercurius,97.20%,10,scripts,False,False
+mercurius,97.20%,12,scripts,False,False
+mercurius,97.51%,14,scripts,False,False
+mercurius,96.57%,16,scripts,False,False
+mercurius,96.57%,18,scripts,False,False
+mercurius,96.26%,20,scripts,False,False
+mercurius,95.95%,22,scripts,False,False
+mercurius,95.95%,24,scripts,False,False
+mercurius,95.33%,26,scripts,False,False
+mercurius,95.95%,28,scripts,False,False
+mercurius,95.95%,30,scripts,False,False
+mercurius,95.33%,32,scripts,False,False
+mercurius,94.70%,34,scripts,False,False
+MISTRAL,90.34%,10,scripts,False,False
+MISTRAL,86.92%,12,scripts,False,False
+MISTRAL,76.32%,14,scripts,False,False
+MISTRAL,89.72%,16,scripts,False,False
+MISTRAL,86.60%,18,scripts,False,False
+MISTRAL,90.34%,20,scripts,False,False
+MISTRAL,81.93%,22,scripts,False,False
+MISTRAL,89.10%,24,scripts,False,False
+MISTRAL,90.34%,26,scripts,False,False
+MISTRAL,76.95%,28,scripts,False,False
+MISTRAL,89.10%,30,scripts,False,False
+MISTRAL,90.03%,32,scripts,False,False
+MISTRAL,92.21%,34,scripts,False,False
+BASKE1,97.20%,10,transitional,True,False
+BASKE1,93.77%,12,transitional,True,False
+BASKE1,97.51%,14,transitional,True,False
+BASKE1,96.57%,16,transitional,True,False
+BASKE1,96.57%,18,transitional,True,False
+BASKE1,96.26%,20,transitional,True,False
+BASKE1,95.95%,22,transitional,True,False
+BASKE1,95.95%,24,transitional,True,False
+BASKE1,96.26%,26,transitional,True,False
+BASKE1,95.95%,28,transitional,True,False
+BASKE1,93.46%,30,transitional,True,False
+BASKE1,95.33%,32,transitional,True,False
+BASKE1,94.70%,34,transitional,True,False
+Bell MT,92.52%,10,transitional,True,False
+Bell MT,97.20%,12,transitional,True,False
+Bell MT,99.38%,14,transitional,True,False
+Bell MT,96.88%,16,transitional,True,False
+Bell MT,96.57%,18,transitional,True,False
+Bell MT,96.57%,20,transitional,True,False
+Bell MT,96.26%,22,transitional,True,False
+Bell MT,95.95%,24,transitional,True,False
+Bell MT,95.95%,26,transitional,True,False
+Bell MT,96.26%,28,transitional,True,False
+Bell MT,95.95%,30,transitional,True,False
+Bell MT,95.95%,32,transitional,True,False
+Bell MT,93.77%,34,transitional,True,False
+Cochin,97.51%,10,transitional,True,False
+Cochin,97.20%,12,transitional,True,False
+Cochin,99.38%,14,transitional,True,False
+Cochin,87.85%,16,transitional,True,False
+Cochin,96.57%,18,transitional,True,False
+Cochin,96.26%,20,transitional,True,False
+Cochin,96.26%,22,transitional,True,False
+Cochin,92.83%,24,transitional,True,False
+Cochin,95.95%,26,transitional,True,False
+Cochin,96.26%,28,transitional,True,False
+Cochin,95.64%,30,transitional,True,False
+Cochin,95.95%,32,transitional,True,False
+Cochin,91.28%,34,transitional,True,False
+grandjean,17.45%,10,transitional,True,False
+grandjean,16.82%,12,transitional,True,False
+grandjean,15.89%,14,transitional,True,False
+grandjean,14.95%,16,transitional,True,False
+grandjean,15.26%,18,transitional,True,False
+grandjean,11.84%,20,transitional,True,False
+grandjean,15.89%,22,transitional,True,False
+grandjean,15.26%,24,transitional,True,False
+grandjean,14.95%,26,transitional,True,False
+grandjean,11.84%,28,transitional,True,False
+grandjean,15.26%,30,transitional,True,False
+grandjean,15.58%,32,transitional,True,False
+grandjean,14.02%,34,transitional,True,False
+Times Regular,20.87%,10,transitional,True,False
+Times Regular,19.63%,12,transitional,True,False
+Times Regular,20.56%,14,transitional,True,False
+Times Regular,20.25%,16,transitional,True,False
+Times Regular,20.25%,18,transitional,True,False
+Times Regular,19.94%,20,transitional,True,False
+Times Regular,19.63%,22,transitional,True,False
+Times Regular,20.56%,24,transitional,True,False
+Times Regular,19.94%,26,transitional,True,False
+Times Regular,19.00%,28,transitional,True,False
+Times Regular,19.00%,30,transitional,True,False
+Times Regular,19.00%,32,transitional,True,False
+Times Regular,18.07%,34,transitional,True,False
+BASKE1,97.20%,10,transitional,False,False
+BASKE1,96.26%,12,transitional,False,False
+BASKE1,97.51%,14,transitional,False,False
+BASKE1,96.57%,16,transitional,False,False
+BASKE1,96.57%,18,transitional,False,False
+BASKE1,96.26%,20,transitional,False,False
+BASKE1,95.95%,22,transitional,False,False
+BASKE1,95.95%,24,transitional,False,False
+BASKE1,95.02%,26,transitional,False,False
+BASKE1,95.95%,28,transitional,False,False
+BASKE1,95.95%,30,transitional,False,False
+BASKE1,95.33%,32,transitional,False,False
+BASKE1,94.70%,34,transitional,False,False
+Bell MT,92.52%,10,transitional,False,False
+Bell MT,97.20%,12,transitional,False,False
+Bell MT,99.38%,14,transitional,False,False
+Bell MT,96.88%,16,transitional,False,False
+Bell MT,96.57%,18,transitional,False,False
+Bell MT,96.57%,20,transitional,False,False
+Bell MT,96.26%,22,transitional,False,False
+Bell MT,95.95%,24,transitional,False,False
+Bell MT,95.95%,26,transitional,False,False
+Bell MT,90.34%,28,transitional,False,False
+Bell MT,95.95%,30,transitional,False,False
+Bell MT,95.95%,32,transitional,False,False
+Bell MT,96.26%,34,transitional,False,False
+Cochin,92.52%,10,transitional,False,False
+Cochin,81.31%,12,transitional,False,False
+Cochin,99.38%,14,transitional,False,False
+Cochin,96.88%,16,transitional,False,False
+Cochin,96.57%,18,transitional,False,False
+Cochin,93.77%,20,transitional,False,False
+Cochin,96.26%,22,transitional,False,False
+Cochin,95.95%,24,transitional,False,False
+Cochin,95.95%,26,transitional,False,False
+Cochin,96.26%,28,transitional,False,False
+Cochin,95.64%,30,transitional,False,False
+Cochin,95.95%,32,transitional,False,False
+Cochin,91.28%,34,transitional,False,False
+grandjean,17.13%,10,transitional,False,False
+grandjean,15.26%,12,transitional,False,False
+grandjean,15.89%,14,transitional,False,False
+grandjean,13.40%,16,transitional,False,False
+grandjean,15.58%,18,transitional,False,False
+grandjean,10.28%,20,transitional,False,False
+grandjean,15.89%,22,transitional,False,False
+grandjean,14.64%,24,transitional,False,False
+grandjean,14.64%,26,transitional,False,False
+grandjean,13.08%,28,transitional,False,False
+grandjean,15.58%,30,transitional,False,False
+grandjean,15.89%,32,transitional,False,False
+grandjean,14.02%,34,transitional,False,False
+Times Regular,20.87%,10,transitional,False,False
+Times Regular,19.63%,12,transitional,False,False
+Times Regular,18.69%,14,transitional,False,False
+Times Regular,20.25%,16,transitional,False,False
+Times Regular,19.00%,18,transitional,False,False
+Times Regular,19.94%,20,transitional,False,False
+Times Regular,19.63%,22,transitional,False,False
+Times Regular,20.56%,24,transitional,False,False
+Times Regular,19.94%,26,transitional,False,False
+Times Regular,19.00%,28,transitional,False,False
+Times Regular,19.00%,30,transitional,False,False
+Times Regular,19.00%,32,transitional,False,False
+Times Regular,18.07%,34,transitional,False,False
