@@ -40,12 +40,11 @@ def count_png(path):
 
     return png_count
 
-def create_evaluation_csv(experiment):
+def create_evaluation_csv(experiment, csv_name='google_vision_experiment.csv'):
     frame = pd.DataFrame(experiment)
-    frame.to_csv('google_vision_experiment.csv', index=False)
+    frame.to_csv(csv_name, index=False)
 
-def experiment():
-    dataset_path = os.path.join('dataset', 'image')
+def experiment(dataset_path=os.path.join('dataset', 'image')):
     with open(os.path.join('sample.txt'), 'r') as file:
         ground_truth = file.read()  
 
